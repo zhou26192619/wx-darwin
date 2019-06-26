@@ -1,0 +1,8 @@
+.main {
+  padding: 20rpx;
+}
+
+.c-bt {
+  width: 200rpx;
+  padding: 20rpx 0 !important;
+}

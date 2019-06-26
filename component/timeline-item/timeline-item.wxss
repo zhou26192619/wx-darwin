@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.item {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 20rpx;
+  position: relative;
+}
+
+.node {
+  display: flex;
+  align-items: flex-start;
+}
+
+.dot {
+  height: 20rpx;
+  width: 20rpx;
+  background: #aaa;
+  border-radius: 50%;
+}
+
+.line {
+  height: 100%;
+  width: 4rpx;
+  background: #aaa;
+  position: absolute;
+  margin-left: 8rpx;
+}
+
+.left {
+  width: 0;
+  flex-grow: 1;
+}
+
+.right {
+  width: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}

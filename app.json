@@ -1,0 +1,39 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/contacts/contacts",
+    "pages/about/about"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#1d9d73",
+    "navigationBarTitleText": "dddd",
+    "backgroundColor": "#f0f0f0",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "日志"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "c-search": "../../component/search/search",
+    "c-drop-input": "../../component/drop-input/drop-input",
+    "c-image": "../../component/image/image",
+    "c-dialog": "../../component/dialog/dialog",
+    "c-timeline": "../../component/timeline/timeline",
+    "c-timeline-item": "../../component/timeline-item/timeline-item",
+    "c-card": "../../component/card/card",
+    "c-input": "../../component/input/input",
+    "c-button": "../../component/button/button"
+  }
+}

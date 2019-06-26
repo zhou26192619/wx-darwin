@@ -1,0 +1,74 @@
+.main {
+  height: 100%;
+  position: relative;
+  border: 2rpx solid rgba(0, 0, 0, 0.2);
+  border-radius: 12rpx;
+  background: white;
+  padding: 12rpx 0;
+  box-sizing: border-box;
+}
+
+.main-focus {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.head {
+  position: absolute;
+  top: 0;
+  font-size: 28rpx;
+  margin-top: -20rpx;
+  margin-left: 16rpx;
+  color: #888;
+  padding: 0 12rpx;
+  background: white;
+}
+
+.occlusion {
+  background: white;
+  height: 4rpx;
+  overflow: hidden;
+  margin-top: -2rpx;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.input {
+  box-sizing: border-box;
+  color: #666;
+  font-size: 28rpx;
+  flex-grow: 1;
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+}
+
+.input-holder {
+  color: #ccc;
+  font-size: 28rpx;
+  position: absolute;
+  left: 0;
+  bottom: 20rpx;
+  padding-left: 0rpx;
+  padding-right: 16rpx;
+  background: white;
+  transition: all 400ms ease-in-out;
+  margin-left: 16rpx;
+}
+
+.input-holder-focus {
+  bottom: -14rpx;
+  font-size: 24rpx;
+  padding-left: 12rpx;
+  padding-right: 12rpx;
+  color: #aaa;
+}
+
+.icon {
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 16rpx;
+  flex-shrink: 0;
+}

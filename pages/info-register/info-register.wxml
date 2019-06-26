@@ -1,0 +1,14 @@
+<!--component/data.wxml-->
+<wxs module="decimal" src="../../filter/decimal.wxs"></wxs>
+<view class='main'>
+  <view class='search'>
+    <button bindtap='handOption'>1</button>
+    <button bindtap='handOption2'>2</button>
+  </view>
+  <view class='ec-outer'>
+    <ec-canvas id="mychart" canvas-id="mychart" ec="{{ ec }}"></ec-canvas>
+  </view>
+  <view class='retain'>
+    scend
+  </view>
+</view>

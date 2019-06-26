@@ -1,0 +1,70 @@
+.main {
+  padding: 0 50rpx;
+  align-items: normal;
+  background: rgb(197, 86, 86);
+}
+
+.logo {
+  height: 72rpx;
+  width: 428rpx;
+  margin-top: 200rpx;
+  margin-bottom: 148rpx;
+}
+
+.form-input-holder {
+  color: white;
+  font-size: 28rpx;
+}
+
+.form-input {
+  border-bottom: 1rpx solid white;
+}
+
+.form-item {
+  margin: 25rpx 0;
+  color: white;
+  display: flex;
+}
+
+.form-title {
+  justify-content: center;
+  font-size: 40rpx;
+}
+
+.bt-submit {
+  background: #009ba4;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  line-height: 74rpx;
+  height: 74rpx;
+  font-size: 32rpx;
+  flex-grow: 1;
+}
+
+.bt-submit:active {
+  background: #018188;
+}
+
+.bt-cancel {
+  background: #909399;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  line-height: 74rpx;
+  height: 74rpx;
+  font-size: 32rpx;
+  flex-grow: 1;
+}
+
+.bt-cancel:active {
+  background: #84858a;
+}
+
+.form-item-gap {
+  width: 32rpx;
+}
+
+.copyright {
+  font-size: 28rpx;
+}

@@ -1,0 +1,11 @@
+<view class='main'>
+  <!-- <slot name='pre'> -->
+  <image src='{{preIcon}}' wx:if='{{preIcon}}' class='pre-icon' style='margin-right:20rpx;'></image>
+  <!-- </slot> -->
+  <input type="text" class='input' placeholder='{{placeholder}}' placeholder-class='input-holder' bindinput='handleInput' value='{{value}}'></input>
+  <!-- <slot name='suf'> -->
+  <picker class='aft-icon' style='margin-left:20rpx;' wx:if='{{sufIcon}}' value='{{value}}' bindcancel='handleCancel' bindchange='handleChange' range='{{range}}' range-key='{{rangeKey}}'>
+    <image bindtap='handleShow' src='{{sufIcon}}' class='aft-icon {{isOpon?"drop-open":"" }}'></image>
+  </picker>
+  <!-- </slot> -->
+</view>

@@ -1,0 +1,9 @@
+<view class='main'>
+  <input type="text" class='input' placeholder='{{placeholder}}' placeholder-class='input-holder' bindinput='handleInput'></input>
+  <image lazy-load='true' src='{{icon}}' mode='scaleToFill' class='icon'></image>
+  <!-- <scroll-view class='result'>
+    <view wx:for="{{list}}" wx:key="{{index}}">
+      {{item.a}}
+    </view>
+  </scroll-view> -->
+</view>

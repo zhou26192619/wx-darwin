@@ -1,0 +1,65 @@
+.main {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* box-shadow: 2rpx 2rpx 10rpx 4rpx rgba(0, 0, 0, 0.2); */
+  border: 2rpx solid rgba(0, 0, 0, 0.2);
+  border-radius: 12rpx;
+  background: white;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-top: 12rpx;
+  padding-bottom: 12rpx;
+  flex-wrap: nowrap;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 28rpx;
+  flex-grow: 1;
+}
+
+.input-holder {
+  color: #ccc;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+}
+
+.drop {
+  height: 24rpx;
+  width: 24rpx;
+  margin-top: -8rpx;
+  margin-left: 20rpx;
+  border-bottom: 8rpx solid #666;
+  border-left: 8rpx solid #666;
+  transform: rotate(-45deg);
+  transition: all 600ms;
+}
+
+.drop-open {
+  transform: rotate(180deg);
+}
+
+.pre-icon {
+  height: 40rpx;
+  width: 40rpx;
+  transition: all 600ms;
+  flex-shrink: 0;
+}
+
+.aft-icon {
+  height: 40rpx;
+  width: 40rpx;
+  transition: all 600ms;
+  flex-shrink: 0;
+}
+
+.pre-icon {
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 20rpx;
+}

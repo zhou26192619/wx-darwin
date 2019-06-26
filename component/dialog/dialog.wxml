@@ -1,0 +1,20 @@
+<view class='main cover-class' wx:if='{{myShow}}' catchtap='handleCover'>
+  <view class='dialog dialog-class' catchtap='true'>
+    <view class='head' wx:if='{{option.title}}'>
+      <view class='title'>{{option.title}}</view>
+      <view class='close' catchtap='handleClose'>X</view>
+    </view>
+    <slot name='head'>
+    </slot>
+    <view class='content' wx:if='{{option.content}}'>{{option.content}}</view>
+    <slot name='body'>
+    </slot>
+    <view class='foot' wx:if='{{option.confirm}}'>
+      <c-button bind:onClick='handleConfirm'>
+        <view>{{option.confirm}}</view>
+      </c-button>
+    </view>
+    <slot name='foot'>
+    </slot>
+  </view>
+</view>

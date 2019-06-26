@@ -1,0 +1,4 @@
+<view class='main'>
+  <canvas id="{{canvasId}}" bindtap='draw' canvas-id="{{canvasId}}" class='main'></canvas>
+  <canvas id="{{canvasId}}2" bindtap='draw' canvas-id="{{canvasId}}2" class='main' style='position:absolute;top:0;left:0;'></canvas>
+</view>

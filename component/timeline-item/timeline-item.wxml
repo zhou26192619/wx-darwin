@@ -1,0 +1,12 @@
+<view class='main' style='flex-direction:{{myDirection=="left"?"row-reverse":"row"}};'>
+  <view wx:if='{{myMode=="both"}}' class='left'>
+  </view>
+  <view class='node' style='margin-top:{{node.deviation}}rpx;'>
+    <view class='line' style='{{status?node.line.arrive:""}}' wx:if='{{myShowLine}}'></view>
+    <view class='dot' style='{{status?node.dot.arrive:""}}'>
+    </view>
+  </view>
+  <view class='right' style='align-items:{{myDirection=="left"? "flex-end":"flex-start" }}'>
+    <slot></slot>
+  </view>
+</view>

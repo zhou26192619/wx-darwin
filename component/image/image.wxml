@@ -1,0 +1,1 @@
+<image lazy-load='{{lazyLoad}}' src='{{mySrc}}' mode='{{mode}}' show-menu-by-longpress='{{longpress}}' class='image custom-class' binderror='handleErr'></image>
