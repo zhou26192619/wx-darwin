@@ -7,11 +7,11 @@
   </view>
   <view style='margin-top:20rpx;'>
     <view style='font-size:24rpx;color:#888;margin-bottom:12rpx;'>search搜索框</view>
-    <c-search icon='https://dsop.dpv.siemens.com.cn/cloud/wx/magnifier.png'></c-search>
+    <c-search icon='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg'></c-search>
   </view>
   <view style='margin-top:20rpx;display:flex;flex-direction:column;'>
     <view style='font-size:24rpx;color:#888;margin-bottom:12rpx;'>drop-input下拉输入框</view>
-    <c-drop-input preIcon='https://dsop.dpv.siemens.com.cn/cloud/wx/magnifier.png' sufIcon='https://dsop.dpv.siemens.com.cn/cloud/wx/magnifier.png'></c-drop-input>
+    <c-drop-input preIcon='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg' sufIcon='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg'></c-drop-input>
   </view>
   <view style='margin-top:20rpx;display:flex;justify-content:space-between;flex-wrap:wrap;'>
     <c-button custom-class='c-bt' bind:onClick='handleTap'>
@@ -41,11 +41,12 @@
     </c-timeline>
   </view>
   <view style='margin-top:20rpx;'>
-    <c-card>
+    <c-card icon='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg' title='这是标题' content='这是你要的内容' describe='对图片的描述'>
+      <view>外界内容</view>
     </c-card>
   </view>
   <view style='margin-top:20rpx;'>
-    <c-image defaultSrc='https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg' src='https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg'></c-image>
+    <c-image defaultSrc='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg' src='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg'></c-image>
   </view>
   <movable-area scale-area style="height: 500px;width:100%;  background: #132145;display:none;">
     <movable-view scale style="height: 100%; width: 100%; background: blue;" x="{{x}}" y="{{y}}" direction="all">

@@ -1,14 +1,15 @@
 <view class='main'>
   <view class='head'>
-    <c-image src='https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg' custom-class='image'></c-image>
+    <c-image src='{{icon}}' custom-class='image'></c-image>
     <view class='image-describe'>
-      对图片的描述
+      {{describe}}
     </view>
   </view>
   <!-- <view class='divider'></view> -->
   <view class='body'>
-    <view class='title'>这是标题</view>
-    <view class='article'>这是你要的内容</view>
+    <view class='title'>{{title}}</view>
+    <view class='article'>{{content}}</view>
+    <slot></slot>
   </view>
   <slot>
   </slot>
