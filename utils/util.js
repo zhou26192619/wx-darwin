@@ -20,5 +20,4 @@ function px2rpx(px) {
 }
 
 module.exports = {
-  urls: urls
 }
