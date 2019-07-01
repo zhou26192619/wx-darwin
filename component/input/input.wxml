@@ -2,7 +2,7 @@
   <view wx:if='{{title}}' class='head title-class'>{{title}}</view>
   <!-- <view wx:if='{{title}}' class='head head-cover'>{{title}}</view> -->
   <view class='body'>
-    <input type="text" maxlength='{{maxlength}}' class='input text-class' bindinput='handleInput' bindfocus='hindleFocus' bindblur='handleBlur'></input>
+    <input type="{{type}}" maxlength='{{maxlength}}' class='input text-class' bindinput='handleInput' bindfocus='hindleFocus' bindblur='handleBlur'></input>
     <view wx:if='{{placeholder}}' class='input-holder {{isFocus || inValue?"input-holder-focus":""}} holder-class'>{{placeholder}}</view>
     <!-- <view wx:if='{{placeholder || isFocus || inValue}}' class='input-holder {{isFocus || inValue?"input-holder-focus":""}} holder-cover'>{{placeholder}}</view> -->
     <image wx:if='{{icon}}' lazy-load='true' src='{{icon}}' mode='scaleToFill' class='icon icon-class'></image>

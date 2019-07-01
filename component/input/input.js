@@ -3,6 +3,10 @@ const app = getApp();
 Component({
   externalClasses: ['main-class', 'title-class', 'holder-class', 'text-class', 'icon-class'],
   properties: {
+    type: {
+      type: String,
+      value: 'text'
+    },
     placeholder: {
       type: String,
       value: ''
