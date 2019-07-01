@@ -1,8 +1,8 @@
 <view class='main {{isFocus?"main-focus":""}}'>
-  <view wx:if='{{title}}' class='head'>{{title}}</view>
+  <view wx:if='{{title}}' class='head title-class'>{{title}}</view>
   <view class='body'>
-    <input type="text" maxlength='{{maxlength}}' class='input' bindinput='handleInput' bindfocus='hindleFocus' bindblur='handleBlur'></input>
-    <view wx:if='{{placeholder}}' class='input-holder {{isFocus || inValue?"input-holder-focus":""}}'>{{placeholder}}</view>
-    <image wx:if='{{icon}}' lazy-load='true' src='{{icon}}' mode='scaleToFill' class='icon'></image>
+    <input type="text" maxlength='{{maxlength}}' class='input text-class' bindinput='handleInput' bindfocus='hindleFocus' bindblur='handleBlur'></input>
+    <view wx:if='{{placeholder}}' class='input-holder {{isFocus || inValue?"input-holder-focus":""}} holder-class'>{{placeholder}}</view>
+    <image wx:if='{{icon}}' lazy-load='true' src='{{icon}}' mode='scaleToFill' class='icon icon-class'></image>
   </view>
 </view>
