@@ -34,6 +34,7 @@ Component({
       this.setData({
         isFocus: false
       })
+      this.triggerEvent("onBlur", event.detail.value);
     },
     handleInput(event) {
       this.setData({
