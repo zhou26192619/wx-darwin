@@ -15,19 +15,33 @@
 .head {
   position: absolute;
   top: 0;
-  font-size: 28rpx;
-  margin-top: -20rpx;
+  font-size: 24rpx;
+  margin-top: -24rpx;
   margin-left: 16rpx;
-  color: #888;
-  padding: 0 12rpx;
-  background: white;
+  /* color: #888; */
+  padding: 6rpx 12rpx;
+  z-index: 10;
+  background: #278cff;
+  color: white;
+  border-radius: 4rpx;
+  box-shadow: 0 0 10rpx #278cff;
 }
 
-.occlusion {
+.head-cover {
   background: white;
   height: 4rpx;
   overflow: hidden;
   margin-top: -2rpx;
+  z-index: 9;
+}
+
+.holder-cover {
+  height: 4rpx;
+  overflow: hidden;
+  margin-bottom: -2rpx;
+  z-index: 9;
+  position: absolute;
+  bottom: 0;
 }
 
 .body {
@@ -53,17 +67,15 @@
   bottom: 20rpx;
   padding-left: 0rpx;
   padding-right: 16rpx;
-  background: white;
   transition: all 400ms ease-in-out;
   margin-left: 16rpx;
 }
 
 .input-holder-focus {
-  bottom: -14rpx;
+  bottom: -28rpx;
   font-size: 24rpx;
-  padding-left: 12rpx;
+  /* padding-left: 12rpx; */
   padding-right: 12rpx;
-  color: #aaa;
 }
 
 .icon {

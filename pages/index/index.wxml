@@ -2,10 +2,10 @@
 <wxs module="decimal" src="../../filter/decimal.wxs"></wxs>
 <view class='container tab-container main'>
   <view style='margin-top:20rpx;'>
-    <view style='font-size:24rpx;color:#888;margin-bottom:12rpx;'>输入框</view>
+    <view style='font-size:24rpx;color:#888;margin-bottom:30rpx;'>输入框</view>
     <c-input title='输入框' placeholder='请输入'></c-input>
   </view>
-  <view style='margin-top:20rpx;'>
+  <view style='margin-top:60rpx;'>
     <view style='font-size:24rpx;color:#888;margin-bottom:12rpx;'>search搜索框</view>
     <c-search icon='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg'></c-search>
   </view>
