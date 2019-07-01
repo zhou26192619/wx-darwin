@@ -1,4 +1,4 @@
-<view class='main {{isFocus?"main-focus":""}}'>
+<view class='main {{isFocus?"main-focus":""}} main-class'>
   <view wx:if='{{title}}' class='head title-class'>{{title}}</view>
   <view class='body'>
     <input type="text" maxlength='{{maxlength}}' class='input text-class' bindinput='handleInput' bindfocus='hindleFocus' bindblur='handleBlur'></input>
