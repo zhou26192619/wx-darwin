@@ -19,6 +19,15 @@ Component({
       type: String,
       value: null
     },
+    value: {
+      type: String,
+      value: '',
+      observer(nv, ov) {
+        this.setData({
+          inValue: nv
+        })
+      }
+    },
     maxlength: {
       type: Number,
       value: 140
@@ -38,12 +47,12 @@ Component({
       this.setData({
         isFocus: false
       })
-      this.triggerEvent("onBlur", event.detail.value);
+      this.triggerEvent("onBlur", e.detail.value);
     },
     handleInput(event) {
-      this.setData({
-        inValue: event.detail.value
-      })
+      // this.setData({
+      //   inValue: event.detail.value
+      // })
       this.triggerEvent("onInput", event.detail.value);
     }
   }
