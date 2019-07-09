@@ -57,9 +57,9 @@ Component({
       this.triggerEvent("onBlur", e.detail.value);
     },
     handleInput(event) {
-      // this.setData({
-      //   inValue: event.detail.value
-      // })
+      this.setData({
+        inValue: event.detail.value
+      })
       this.triggerEvent("onInput", event.detail.value);
     }
   }

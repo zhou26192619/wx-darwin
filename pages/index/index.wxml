@@ -3,7 +3,7 @@
 <view class='container tab-container main'>
   <view style='margin-top:20rpx;'>
     <view style='font-size:24rpx;color:#888;margin-bottom:30rpx;'>输入框</view>
-    <c-input title='输入框' placeholder='请输入' disabled='true'>
+    <c-input value='{{inputValue}}' title='输入框' placeholder='请输入' bind:onInput='handleInput'>
       <view slot='after'>图</view>
     </c-input>
   </view>
