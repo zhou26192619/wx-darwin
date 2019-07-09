@@ -32,6 +32,13 @@ Component({
       type: Number,
       value: 140
     },
+    disabled: {
+      type: Boolean,
+      value: false
+    },
+  },
+  options: {
+    multipleSlots: true
   },
   data: {
     inValue: null,

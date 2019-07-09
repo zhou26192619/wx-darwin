@@ -3,7 +3,9 @@
 <view class='container tab-container main'>
   <view style='margin-top:20rpx;'>
     <view style='font-size:24rpx;color:#888;margin-bottom:30rpx;'>输入框</view>
-    <c-input title='输入框' placeholder='请输入'></c-input>
+    <c-input title='输入框' placeholder='请输入' disabled='true'>
+      <view slot='after'>图</view>
+    </c-input>
   </view>
   <view style='margin-top:60rpx;'>
     <view style='font-size:24rpx;color:#888;margin-bottom:12rpx;'>search搜索框</view>
