@@ -1,7 +1,7 @@
-<view class='main {{melody}} custom-class' style='{{}}' bindtap='handleTap'>
+<view class='main {{melody}} custom-class' bindtap='handleTap'>
   <view wx:if='{{loading.show}}' class='loading' style='width:{{loading.percent}}'></view>
   <view class='text'>
     <slot></slot>
   </view>
-  <view class='cover' hover-class='cover-hover'></view>
+  <view class='cover {{disabled?"disabled":""}}' hover-class='cover-hover'></view>
 </view>

@@ -1,5 +1,4 @@
 .main {
-  height: 100%;
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -48,20 +47,25 @@
   background: black;
 }
 
+.disabled {
+  opacity: 0.6 !important;
+  background: white !important;
+}
+
 .primary {
   background: #67c33a;
-  border-color: #67c33a;
+  border: 0;
   color: white;
 }
 
 .info {
   background: #999399;
-  border-color: #999399;
+  border: 0;
   color: white;
 }
 
 .err {
   background: #ff3030;
-  border-color: #ff3030;
+  border: 0;
   color: white;
 }

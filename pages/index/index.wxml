@@ -25,7 +25,7 @@
     <c-button custom-class='c-bt' bind:onClick='handleTap' melody='info'>
       <view>info</view>
     </c-button>
-    <c-button custom-class='c-bt' bind:onClick='handleTap' melody='err'>
+    <c-button custom-class='c-bt' bind:onClick='handleTap' melody='err' disabled='true'>
       <view>err</view>
     </c-button>
   </view>

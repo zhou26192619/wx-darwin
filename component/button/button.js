@@ -15,7 +15,11 @@ Component({
         show: false,
         percent: '50%'
       }
-    }
+    },
+    disabled: {
+      type: Boolean,
+      value: false
+    },
   },
   options: {
     multipleSlots: true
