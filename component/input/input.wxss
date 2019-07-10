@@ -1,15 +1,13 @@
 .main {
-  height: 100%;
   position: relative;
-  border: 2rpx solid rgba(0, 0, 0, 0.2);
+  border: 2rpx solid rgb(180, 180, 180);
   border-radius: 12rpx;
   background: white;
-  padding: 12rpx 0;
   box-sizing: border-box;
 }
 
 .main-focus {
-  border-color: rgba(0, 0, 0, 0.3);
+  border-color: rgb(40, 216, 134);
 }
 
 .head {
@@ -48,6 +46,7 @@
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
+  height: 80rpx;
 }
 
 .input {
