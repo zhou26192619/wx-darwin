@@ -4,6 +4,10 @@
   border-radius: 12rpx;
   background: white;
   box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 80rpx;
+  align-items: stretch;
 }
 
 .main-focus {
@@ -46,7 +50,6 @@
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  height: 80rpx;
 }
 
 .input {
@@ -56,6 +59,7 @@
   flex-grow: 1;
   margin-left: 16rpx;
   margin-right: 16rpx;
+  height: 100%;
 }
 
 .input-holder {
@@ -63,7 +67,7 @@
   font-size: 28rpx;
   position: absolute;
   left: 0;
-  bottom: 20rpx;
+  top: calc(50% - 16rpx);
   padding-left: 0rpx;
   padding-right: 16rpx;
   transition: all 400ms ease-in-out;
@@ -71,7 +75,7 @@
 }
 
 .input-holder-focus {
-  bottom: -28rpx;
+  top: 105%;
   font-size: 24rpx;
   /* padding-left: 12rpx; */
   padding-right: 12rpx;
