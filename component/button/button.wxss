@@ -3,14 +3,14 @@
   display: inline-flex;
   align-items: center;
   border: 2rpx solid rgba(0, 0, 0, 0.2);
-  border-radius: 12rpx;
+  border-radius: 6rpx;
   background: white;
   padding-left: 40rpx;
   padding-right: 40rpx;
-  padding-top: 20rpx;
-  padding-bottom: 20rpx;
+  padding-top: 14rpx;
+  padding-bottom: 14rpx;
   flex-wrap: nowrap;
-  line-height: 1;
+  line-height: 1.2;
   font-size: 32rpx;
   overflow: hidden;
   color: #666266;

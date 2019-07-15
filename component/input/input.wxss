@@ -1,7 +1,7 @@
 .main {
   position: relative;
   border: 2rpx solid rgb(180, 180, 180);
-  border-radius: 12rpx;
+  border-radius: 6rpx;
   background: white;
   box-sizing: border-box;
   display: flex;

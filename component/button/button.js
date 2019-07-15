@@ -25,10 +25,9 @@ Component({
     multipleSlots: true
   },
   data: {},
-  attached: function() {},
   methods: {
     handleTap(e) {
-      this.triggerEvent("onClick", e);
+      !this.properties.disabled && this.triggerEvent("onClick", e);
     }
   }
 })
