@@ -50,18 +50,12 @@
   <view style='margin-top:20rpx;'>
     <c-image defaultSrc='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg' src='https://cdn.pixabay.com/photo/2018/11/07/11/38/mountain-3800239_1280.jpg'></c-image>
   </view>
-  <movable-area scale-area style="height: 500px;width:100%;  background: #132145;display:none;">
-    <movable-view scale style="height: 100%; width: 100%; background: blue;" x="{{x}}" y="{{y}}" direction="all">
-      <view style='height: 100%; width: 100%; '>
-        <view>aaaa</view>
-        <view>aaaa</view>
-        <view>aaaa</view>
-      </view>
-    </movable-view>
-  </movable-area>
+  <c-selector list='{{tabs}}' rangeKey='text' defaultIndex='{{ [0,0] }}'>
+    <view>
+      请选择
+    </view>
+  </c-selector>
 </view>
 <c-dialog show='{{showDialog}}' option='{{dialogOption}}' bind:onClose='handleDialogClose' bind:onConfirm='handleDialogConfirm'>
-  <!-- <view slot='head'>自定义标题</view> -->
   <view slot='body'>自定义内容</view>
-  <!-- <view slot='foot'>自定义底部</view> -->
 </c-dialog>

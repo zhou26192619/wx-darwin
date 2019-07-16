@@ -1,0 +1,37 @@
+.picker {
+  height: 100%;
+  width: 100%;
+}
+
+.date {
+  /* color: white; */
+  /* background: #d9f0fa; */
+  border: 2rpx solid ;
+  /* box-shadow: 6rpx 6rpx 20rpx 4rpx rgba(0, 0, 0, 0.3); */
+  display: flex;
+  align-items: center;
+  padding: 4rpx 12rpx;
+  font-size: 28rpx;
+  line-height: 1;
+  height: 100%;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.divider {
+  background: white;
+  width: 2rpx;
+  height: 40rpx;
+  margin-left: 12rpx;
+}
+
+.trangle {
+  width: 0;
+  height: 20rpx;
+  border-left: 15rpx solid transparent;
+  border-right: 15rpx solid transparent;
+  border-top: 20rpx solid;
+  margin-left: 10rpx;
+}

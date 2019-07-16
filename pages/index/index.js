@@ -7,7 +7,12 @@ Page({
       lazyLoad: true
     },
     tabs: [{
-      text: '苏州'
+      text: '苏州',
+      children: [{
+        text: '杭州'
+      }, {
+        text: '杭州'
+      }]
     }, {
       text: '杭州'
     }, {

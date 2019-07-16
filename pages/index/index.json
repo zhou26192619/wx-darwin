@@ -8,6 +8,7 @@
     "c-timeline-item": "../../component/timeline-item/timeline-item",
     "c-card": "../../component/card/card",
     "c-input": "../../component/input/input",
+    "c-selector": "../../component/selector/selector",
     "c-button": "../../component/button/button"
   }
 }
