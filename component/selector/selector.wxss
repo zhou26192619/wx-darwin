@@ -1,12 +1,10 @@
 .picker {
-  height: 100%;
-  width: 100%;
+  display: flex;
 }
 
 .date {
-  /* color: white; */
-  /* background: #d9f0fa; */
-  border: 2rpx solid ;
+  /* color: white; *//* background: #d9f0fa; */
+  border: 2rpx solid;
   /* box-shadow: 6rpx 6rpx 20rpx 4rpx rgba(0, 0, 0, 0.3); */
   display: flex;
   align-items: center;

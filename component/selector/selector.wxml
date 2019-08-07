@@ -1,3 +1,3 @@
-<picker mode='{{mode}}' class='picker' bindchange="handleChange" bindcolumnchange='handleColumnChange' value="{{defaultIndex}}" range="{{myList}}" range-key="{{rangeKey}}">
+<picker mode='{{mode}}' class='picker custem-class' bindchange="handleChange" bindcolumnchange='handleColumnChange' value="{{defaultIndex}}" range="{{myList}}" range-key="{{rangeKey}}">
   <slot></slot>
 </picker>

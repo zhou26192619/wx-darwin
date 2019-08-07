@@ -1,4 +1,5 @@
 Component({
+  externalClasses: ['custem-class'],
   properties: {
     defaultIndex: {
       type: Array,
@@ -42,9 +43,18 @@ Component({
   data: {
     myList: [],
     myDefaultIndex: [],
-    selector: ''
+    selector: '',
+    isTriggered: false,
+  },
+  ready() {
+    this.trigger();
   },
   methods: {
+    trigger() {
+      if (!this.data.isTriggered && this.properties.firstTrigger) {
+        this.findRealObj(this.properties.defaultIndex);
+      }
+    },
     /**
      * 根据位置查找相应的数组
      */
@@ -83,15 +93,14 @@ Component({
       this.setData({
         selector: obj[this.properties.rangeKey]
       })
-      this.properties.firstTrigger && this.triggerEvent("onChange", {
+      this.triggerEvent("onChange", {
         value: obj,
         index: mutiIndex
       });
-      this.properties.firstTrigger = true;
+      this.data.isTriggered = true;
       return obj
     },
     handleChange(e) {
-      console.log(e)
       let r = this.findRealObj(e.detail.value);
       // this.triggerEvent("onChange", {
       //   value: r,
