@@ -4,7 +4,7 @@
   <!-- <view class='body'> -->
   <slot name='before'></slot>
   <input type="{{type}}" disabled='{{disabled}}' value='{{inValue}}' maxlength='{{maxlength}}' class='input text-class' bindinput='handleInput' bindfocus='hindleFocus' bindblur='handleBlur'></input>
-  <view wx:if='{{placeholder}}' class='input-holder {{isFocus || inValue?"input-holder-focus":""}} holder-class'>{{placeholder}}</view>
+  <view wx:if='{{placeholder}}' class='input-holder {{(isFocus || inValue) ? effect ? "input-holder-focus":"input-holder-focus-normal":"" }} holder-class'>{{placeholder}}</view>
   <image wx:if='{{icon}}' lazy-load='true' src='{{icon}}' mode='scaleToFill' class='icon icon-class'></image>
   <slot wx:else name='after'></slot>
   <!-- </view> -->

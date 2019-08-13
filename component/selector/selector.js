@@ -29,7 +29,7 @@ Component({
     /**
      * 是否首次触发
      */
-    firstTrigger: {
+    trigger: {
       type: Boolean,
       value: false
     },
@@ -51,7 +51,7 @@ Component({
   },
   methods: {
     trigger() {
-      if (!this.data.isTriggered && this.properties.firstTrigger) {
+      if (!this.data.isTriggered && this.properties.trigger) {
         this.findRealObj(this.properties.defaultIndex);
       }
     },

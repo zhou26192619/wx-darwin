@@ -75,6 +75,10 @@
   line-height: 1.2;
 }
 
+.input-holder-focus-normal {
+  display: none;
+}
+
 .input-holder-focus {
   top: 105%;
   font-size: 24rpx;

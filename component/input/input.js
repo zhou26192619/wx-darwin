@@ -34,6 +34,10 @@ Component({
       type: Boolean,
       value: false
     },
+    effect: { //holder效果开关
+      type: Boolean,
+      value: false
+    }
   },
   options: {
     multipleSlots: true
